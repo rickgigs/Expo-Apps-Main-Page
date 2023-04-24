@@ -8,14 +8,14 @@ import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen';
 import SettingsScreen from './screens/SettingsScreen';
 
-//Screen names
+//Screen namess
 const homeName = "Home";
 const detailsName = "Details";
 const settingsName = "Settings";
 
 const Tab = createBottomTabNavigator();
 
-function MainContainer() {
+function MainContainerb() {
   return (
     <NavigationContainer>
       <Tab.Navigator
